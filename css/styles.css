@@ -277,7 +277,7 @@ li .dropdown {
 
 .start {
     background-color: red;
-    animation: start-animation 3s infinite;
+    animation: start-animation 5s infinite;
 }
 
 .icon {
