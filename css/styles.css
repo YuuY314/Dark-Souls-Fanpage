@@ -65,7 +65,7 @@ nav ul {
     display: flex;
 }
 
-nav a {
+nav a{
     text-decoration: none;
     color: #DADBDD;
     font-size: 25px;
@@ -186,8 +186,9 @@ li .dropdown {
 }
 
 .video {
-    height: 40%;
+    height: 240px;
     width: 100%;
+    aspect-ratio: 16 / 9;
 }
 
 .btn {
@@ -285,9 +286,49 @@ li .dropdown {
     animation: start-animation 5s infinite;
 }
 
+.git-gud {
+    background-image: url("../img/git-gud.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
 .icon {
     color: #FFF;
     font-size: 30px;
+}
+
+.profile-pic {
+    background-image: url("../img/profile-pic.png");
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #FAF88D;
+    margin-right: 5px;
+}
+
+.about-me {
+    border-bottom: 2px solid #FAF88D;
+}
+
+.info-box {
+    clear: both;
+    display: flex;
+}
+
+.my-info {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.big-pic {
+    background-color: #FFF;
+    height: 400px;
+    width: 20%;
 }
 
 footer {
@@ -363,6 +404,16 @@ footer {
 
     li {
         font-size: 25px;
+    }
+
+    .dropdown-content {
+        position: static;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .dropdown-content a {
+        border: none;
     }
 
     main {
