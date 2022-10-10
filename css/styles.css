@@ -281,9 +281,25 @@ li .dropdown {
     height: 70vh;
 }
 
-.start {
+.start-box {
+    position: relative;
+    height: 20px;
+    width: 191px;
+}
+
+.start-bkg
+{
+    position: absolute;
     background-color: red;
+    height: 100%;
+    width: 100%;
     animation: start-animation 5s infinite;
+    z-index: 1;
+}
+
+.start-msg {
+    position: absolute;
+    z-index: 2;
 }
 
 .menu-option ul {
