@@ -2,7 +2,9 @@ const hamBtn = document.querySelector(".ham");
 const topNav = document.querySelector(".topnav");
 
 const page = document.querySelector(".page");
-const menu = document.querySelector(".menu");
+const start = document.querySelector(".start");
+const menu = document.querySelector(".menu-option");
+const select = document.querySelector(".select-btn"); //só tá pegando o primeiro elemento
 const content = document.querySelector(".container");
 
 hamBtn.addEventListener("click", () => {
@@ -10,9 +12,10 @@ hamBtn.addEventListener("click", () => {
 });
 
 page.addEventListener("keydown", () => {
-    menu.classList.add("fade");
-    setTimeout(() => {
-        menu.classList.add("hide");
-        content.classList.remove("hide");
-    }, 750);
+    start.classList.add("hide");
+    menu.classList.remove("hide");
+});
+
+select.addEventListener("click", () => {
+    content.classList.remove("hide");
 });

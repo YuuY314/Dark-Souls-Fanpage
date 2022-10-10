@@ -286,6 +286,22 @@ li .dropdown {
     animation: start-animation 5s infinite;
 }
 
+.menu-option ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu-option ul li a{
+    color: #DADBDD;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.menu-option ul li a:hover{
+    font-weight: bold;
+}
+
 .git-gud {
     background-image: url("../img/git-gud.jpg");
     height: 350px;
