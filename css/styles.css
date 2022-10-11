@@ -18,6 +18,10 @@ Paleta de Cores: (fonte: https://every-single-one-of-the-things.tumblr.com/post/
 #38322B - Cinza Escuro (fonte: https://www.color-hex.com/color-palette/106718)
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #38322B;
     color: #DADBDD;
@@ -216,7 +220,7 @@ li .dropdown {
 }
 
 #image-ds1 {
-    background-image: url("../img/dark-souls.jpg");
+    background-image: url("../img/dark-souls-1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -273,6 +277,11 @@ li .dropdown {
     background-color: #222220;
     height: 70vh;
     width: 90%;
+    display: flex;
+}
+
+#my-info {
+    flex-direction: column;
 }
 
 .game-info {
@@ -285,16 +294,20 @@ li .dropdown {
     position: relative;
     height: 20px;
     width: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .start-bkg
 {
     position: absolute;
-    background-color: red;
-    height: 100%;
-    width: 191px;
-    animation: start-animation 5s infinite;
+    background-image: radial-gradient(red, black);
+    height: 150%;
+    width: 250px;
+    animation: start-animation 3s infinite;
     z-index: 1;
+    border-radius: 50%;
 }
 
 .start-msg {
@@ -316,6 +329,31 @@ li .dropdown {
 
 .menu-option ul li a:hover{
     font-weight: bold;
+}
+
+.cover {
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+}
+
+#cover-ds1 {
+    background-image: url("../img/ds1-capa.jpg");
+}
+
+#cover-ds2 {
+    background-image: url("../img/ds2-capa.jpg");
+}
+
+#cover-ds3 {
+    background-image: url("../img/ds3-capa.jpg");
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .git-gud {
@@ -376,27 +414,13 @@ footer {
     display: none;
 }
 
-.fade {
-    animation: fade-in .75s linear;
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 100%;
-    }
-
-    to {
-        opacity: 0%;
-    }
-}
-
 @keyframes start-animation {
     0% {
         opacity: 100%;
     }
 
     50% {
-        opacity: 0%;
+        opacity: 20%;
     }
 
     100% {
