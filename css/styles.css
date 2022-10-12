@@ -1,5 +1,9 @@
 /* Geral */
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -53,15 +57,19 @@ body {
 
 /* Início do Header */
 
-header {
-    padding: 10px;
+.navbar {
+    padding: 15px;
     border-bottom: 2px solid #FAF88D;
     background-color: #171715;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .no-select {
     user-select: none;
+    font-family: "Cardo", Cambria, Georgia, Arial;
 }
 
 nav ul {
@@ -73,7 +81,8 @@ nav a{
     text-decoration: none;
     color: #DADBDD;
     font-size: 25px;
-    padding: 15px;
+    padding: 20px;
+    font-family: "Cardo";
 }
 
 nav a:hover,
@@ -103,17 +112,11 @@ li .dropdown {
     display: block;
 }
 
-.ham {
+.topnav {
     display: none;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topnav {
+.ham {
     display: none;
 }
 
@@ -126,73 +129,63 @@ li .dropdown {
 .slider-btn {
     border: none;
     background: transparent;
-    font-size: 75px;
+    font-size: 50px;
     position: absolute;
     color: #DADBDD;
     cursor: pointer;
     top: 50%;
-    margin: 5px;
 }
 
 #prev-btn {
     left: 0;
+    padding-left: 20px;
 }
 
 #next-btn {
     right: 0;
+    padding-right: 20px;
 }
 
 .container {
     width: 100%;
     display: flex;
-    min-height: calc(100vh - 59.6px - 60.4px);
+    min-height: calc(100vh - 76px);
+    position: relative;
 }
 
 .container-info {
     width: 100%;
     display: flex;
-    min-height: calc(100vh - 59.6px - 60.4px);
+    min-height: calc(100vh - 76px);
     align-items: center;
     justify-content: center;
 }
 
-#container-ds1 {
-    background-color: #222220;
-}
-
-#container-ds2 {
-    background-color: #222220;
-}
-
-#container-ds3 {
-    background-color: #222220;
-}
-
-.text {
-    width: 35%;
+.slide {
+    position: absolute;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 3rem;
+    align-items: center;
+    width: 40%;
+    top: 12%;
+    left: 15%;
 }
 
-.long-text {
-    width: 70%;
-    height: 200vh;
-    background-color: #DADBDD;
-    color: #171715;
+.logo {
+    font-family: "Cardo", Cambria, Georgia, Arial;
+    font-size: 450%;
 }
 
 .synopsis {
-    padding: 10px;
-    background-color: #38322B;
     text-align: justify;
+    font-family: "Belleza", Cambria, Georgia, Arial;
+    font-size: 120%;
+    margin-bottom: 10px;
 }
 
 .video {
-    height: 240px;
-    width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 230px;
+    width: 70%;
 }
 
 .btn {
@@ -207,6 +200,7 @@ li .dropdown {
     background-color: #40536B;
     color: #DADBDD;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .btn:hover {
@@ -222,19 +216,16 @@ li .dropdown {
 #image-ds1 {
     background-image: url("../img/dark-souls-1.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 #image-ds2 {
     background-image: url("../img/dark-souls-2.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 #image-ds3 {
     background-image: url("../img/dark-souls-3.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 /* Fim do Index */
@@ -369,45 +360,29 @@ li .dropdown {
     font-size: 30px;
 }
 
-.profile-pic {
-    background-image: url("../img/profile-pic.png");
-    height: 100px;
-    width: 100px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #FAF88D;
-    margin-right: 5px;
-}
-
-.about-me {
-    border-bottom: 2px solid #FAF88D;
-}
-
-.info-box {
-    clear: both;
-    display: flex;
-}
-
 .my-info {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.big-pic {
-    background-color: #FFF;
-    height: 400px;
-    width: 20%;
+.project {
+    margin-top: 10px;
 }
 
-footer {
-    padding: 20px;
+.project ul {
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 2px solid #FAF88D;
-    background-color: #171715;
+}
+
+.projects {
+    padding: 10px;
+    background-color: ;
+    color: #DADBDD;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #40536B;
+    margin-right: 10px;
 }
 
 .hide {
