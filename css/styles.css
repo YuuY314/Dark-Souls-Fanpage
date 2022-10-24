@@ -173,7 +173,7 @@ li .dropdown {
 
 .logo {
     font-family: "Cardo", Cambria, Georgia, Arial;
-    font-size: 450%;
+    font-size: 400%;
 }
 
 .synopsis {
@@ -347,6 +347,28 @@ li .dropdown {
     justify-content: space-evenly;
 }
 
+.container-lore {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-content {
+    width: 70%;
+    background-color: #DADBDD;
+    padding: 50px 100px;
+}
+
+.text {
+    color: #000;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #FAF88D;
+}
+
 .git-gud {
     background-image: url("../img/git-gud.jpg");
     height: 350px;
@@ -366,6 +388,13 @@ li .dropdown {
    align-items: center;
 }
 
+.profile-pic {
+    background-image: url("../img/profile-pic.png");
+    background-size: cover;
+    height: 60vh;
+    width: 30%;
+}
+
 .project {
     margin-top: 10px;
 }
@@ -377,7 +406,6 @@ li .dropdown {
 
 .projects {
     padding: 10px;
-    background-color: ;
     color: #DADBDD;
     text-decoration: none;
     font-size: 20px;
