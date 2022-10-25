@@ -53,6 +53,11 @@ body {
     background-color: #000;
 }
 
+a {
+    color: #DADBDD;
+    text-decoration: none;
+}
+
 /* Específico */
 
 /* Início do Header */
@@ -67,9 +72,9 @@ body {
     align-items: center;
 }
 
-.no-select {
-    user-select: none;
-    font-family: "Cardo", Cambria, Georgia, Arial;
+.font-logo {
+    cursor: pointer;
+    font-family: "Cardo";
 }
 
 nav ul {
@@ -92,6 +97,10 @@ nav a:hover,
 
 li .dropdown {
     display: inline-block;
+}
+
+.dropdown-btn {
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -350,13 +359,14 @@ li .dropdown {
 .container-lore {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
+    background-color: #DADBDD;
 }
 
 .main-content {
     width: 70%;
-    background-color: #DADBDD;
-    padding: 50px 100px;
+    padding: 50px 150px;
+    border-right: 1px solid #000;
 }
 
 .text {
@@ -364,9 +374,38 @@ li .dropdown {
     text-align: justify;
 }
 
+.origin {
+    color: #000;
+    text-decoration: underline;
+}
+
 .sidebar {
     width: 30%;
-    background-color: #FAF88D;
+    color: #000;
+    position: sticky;
+    top: 0;
+    height: 60vh;
+    padding: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    padding: 2px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover{
+    color: #555;
 }
 
 .git-gud {
