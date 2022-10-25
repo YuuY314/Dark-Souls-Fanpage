@@ -214,17 +214,17 @@ li .dropdown {
 }
 
 #image-ds1 {
-    background-image: url("../img/dark-souls-1.jpg");
+    background-image: url("../img/dark-souls-1.webp");
     background-size: cover;
 }
 
 #image-ds2 {
-    background-image: url("../img/dark-souls-2.jpg");
+    background-image: url("../img/dark-souls-2.webp");
     background-size: cover;
 }
 
 #image-ds3 {
-    background-image: url("../img/dark-souls-3.jpg");
+    background-image: url("../img/dark-souls-3.webp");
     background-size: cover;
 }
 
@@ -330,15 +330,15 @@ li .dropdown {
 }
 
 #cover-ds1 {
-    background-image: url("../img/ds1-capa.jpg");
+    background-image: url("../img/ds1-capa.webp");
 }
 
 #cover-ds2 {
-    background-image: url("../img/ds2-capa.jpg");
+    background-image: url("../img/ds2-capa.webp");
 }
 
 #cover-ds3 {
-    background-image: url("../img/ds3-capa.jpg");
+    background-image: url("../img/ds3-capa.webp");
 }
 
 .column {
@@ -370,7 +370,7 @@ li .dropdown {
 }
 
 .git-gud {
-    background-image: url("../img/git-gud.jpg");
+    background-image: url("../img/git-gud.webp");
     height: 350px;
     width: 100%;
     background-size: cover;
