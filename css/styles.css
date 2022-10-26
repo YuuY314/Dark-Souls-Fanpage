@@ -280,10 +280,6 @@ li .dropdown {
     display: flex;
 }
 
-#my-info {
-    flex-direction: column;
-}
-
 .game-info {
     background-color: #171715;
     width: 95%;
@@ -416,22 +412,40 @@ li .dropdown {
     background-position: center;
 }
 
-.icon {
-    color: #FFF;
-    font-size: 30px;
-}
-
-.my-info {
+#my-info {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.profile-pic {
-    background-image: url("../img/profile-pic.png");
-    background-size: cover;
-    height: 60vh;
+.profile {
+    display: flex;
+    height: 100%;
     width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.profile-pic {
+    height: 70%;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    color: #FFF;
+    font-size: 50px;
+}
+
+.personal-info {
+    width: 70%;
+    height: 100%;
 }
 
 .project {
