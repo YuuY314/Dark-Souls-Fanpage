@@ -2,16 +2,9 @@ const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 let count = 1;
 
-const hamBtn = document.querySelector(".ham");
-const topNav = document.querySelector(".topnav");
-
 const landingDs1 = document.querySelector(".container-ds1");
 const landingDs2 = document.querySelector(".container-ds2");
 const landingDs3 = document.querySelector(".container-ds3");
-
-hamBtn.addEventListener("click", () => {
-    topNav.classList.toggle("hide");
-});
 
 nextBtn.addEventListener("click", () => {
     if(count > 3){

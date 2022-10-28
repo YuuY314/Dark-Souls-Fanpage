@@ -195,18 +195,18 @@ li .dropdown {
     text-decoration: none;
     align-self: center;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #FAF88D;
     border-radius: 5px;
     font-weight: bold;
-    background-color: #40536B;
+    background-color: #111;
     color: #DADBDD;
     cursor: pointer;
     margin-top: 20px;
+    transition: .5s;
 }
 
 .btn:hover {
-    background-color: #DADBDD;
-    color: #40536B;
+    background-color: #38322B;
 }
 
 .image {
@@ -438,6 +438,15 @@ li .dropdown {
 .personal-info {
     width: 70%;
     height: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.subject {
+    width: 50%;
+    height: 100%;
+    text-align: justify;
 }
 
 .project {
@@ -447,6 +456,7 @@ li .dropdown {
 .project ul {
     list-style-type: none;
     display: flex;
+    gap: 20px;
 }
 
 .projects {
@@ -455,7 +465,17 @@ li .dropdown {
     text-decoration: none;
     font-size: 20px;
     background-color: #40536B;
-    margin-right: 10px;
+}
+
+.gemaplys {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+#gemaplys {
+    width: 90%;
+    height: 100%;
 }
 
 .hide {
