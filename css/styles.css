@@ -121,14 +121,6 @@ li .dropdown {
     display: block;
 }
 
-.topnav {
-    display: none;
-}
-
-.ham {
-    display: none;
-}
-
 /* Fim do Header */
 
 .slider {
@@ -482,76 +474,4 @@ li .dropdown {
     100% {
         opacity: 100%;
     }
-}
-
-@media screen and (max-width: 480px) {
-
-    /* Celular */
-    header {
-        display: block;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    a {
-        color: #FFF;
-        text-decoration: none;
-    }
-
-    .ham {
-        font-size: 30px;
-        display: block;
-    }
-
-    .topnav {
-        display: block;
-    }
-
-    li {
-        font-size: 25px;
-    }
-
-    .dropdown-content {
-        position: static;
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-
-    .dropdown-content a {
-        border: none;
-    }
-
-    main {
-        min-height: calc(100vh - 59px - 61px);
-    }
-
-    .slider {
-        display: none;
-    }
-
-    .hide {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    /* Tablet */
-
-}
-
-@media screen and (max-width: 1024px) {
-    /* Tela Pc Menor */
-
-}
-
-@media screen and (max-width: 1200px) {
-    /* Tela Pc Padrão */
-
 }
