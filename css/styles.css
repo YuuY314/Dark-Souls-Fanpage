@@ -346,15 +346,17 @@ li .dropdown {
 
 .container-lore {
     display: flex;
-    width: 100%;
-    height: 200vh;
-    background-color: #DADBDD;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 50px auto;
+    gap: 30px;
 }
 
 .main-content {
-    width: 70%;
-    padding: 50px 150px;
-    border-right: 1px solid #000;
+    width: 80%;
+    padding: 50px 100px;
+    background-color: #DADBDD;
 }
 
 .text {
@@ -370,9 +372,10 @@ li .dropdown {
 .sidebar {
     width: 30%;
     color: #000;
+    background-color: #DADBDD;
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 100%;
     padding: 30px;
 }
 
