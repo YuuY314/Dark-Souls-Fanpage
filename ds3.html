@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Web G1</title>
+    <title>Dark Souls Fanpage</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/bonfire.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li class="dropdown">
-                        <a class="dropdown-btn">Jogos</a>
+                        <a class="dropdown-btn">Jogos <i class="fa-solid fa-chevron-down down"></i></a>
                         <div class="dropdown-content">
                             <a href="ds1.html">Dark Souls</a>
                             <a href="ds2.html">Dark Souls II</a>
@@ -25,7 +25,6 @@
                         </div>
                     </li>
                     <li><a href="lore.html">Lore</a></li>
-                    <li><a href="community.html">Comunidade</a></li>
                     <li><a href="contact.html">Contato</a></li>
                 </ul>
             </nav>
@@ -42,9 +41,9 @@
                 <div class="menu-option hide">
                     <ul>
                         <li><a href="#game" class="select-btn">Jogo</a></li>
-                        <li><a href="#guide" class="select-btn">Jornada</a></li>
                         <li><a href="#boss" class="select-btn">Bosses</a></li>
                         <li><a href="#curiosity" class="select-btn">Curiosidades</a></li>
+                        <li><a href="#soon" class="select-btn">Em Breve</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,28 +51,54 @@
         <div class="container-info hide" id="content">
             <div class="info" id="game">
                 <div class="cover" id="cover-ds3"></div>
-                <div class="column">
+                <div class="game-info">
                     <h3>Plataformas: PlayStation 4, Xbox One e PC</h3>
                     <h3>Desenvolvedora: FromSoftware</h3>
                     <h3>Distribuidora: Bandai Namco Entertainment</h3>
                     <h3>Diretores: Hidetaka Mizayaki, Isamu Okano e Yui Tanimura</h3>
                     <h3>Compositores: Yuka Kitamura, Nobuyoshi Suzuki e Motoi Sakuraba</h3>
-                    <h3>Data de Lançamento: Japão 24/03/2016 | Global 12/04/2016</h3>
+                    <ul>
+                        <li><h3>Datas de Lançamento:</h3></li>
+                        <li><h3>Japão 24/03/2016</h3></li>
+                        <li><h3>Global 12/04/2016</h3></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="container-info hide" id="content">
-            <div class="info" id="guide">
-                
-            </div>
-        </div>
-        <div class="container-info hide" id="content">
             <div class="info" id="boss">
-                <audio controls src="audio/ds3 theme.mp3"></audio>
+                <div class="boss-card">
+                    <div class="boss-img" id="watcher"></div>
+                    <h3>Vigilantes do Abismo</h3>
+                </div>
+                <div class="boss-card">
+                    <div class="boss-img" id="yhorm"></div>
+                    <h3>Yhorm, o Gigante</h3>
+                </div>
+                <div class="boss-card">
+                    <div class="boss-img" id="aldrich"></div>
+                    <h3>Aldrich, o Devorador de Deuses</h3>
+                </div>
+                <div class="boss-card">
+                    <div class="boss-img" id="lothric"></div>
+                    <h3>Lothric, Princípe Mais Novo</h3>
+                </div>
+                <div class="boss-card">
+                    <div class="boss-img" id="cinder"></div>
+                    <h3>Alma das Cinzas</h3>
+                </div>
+                <div class="boss-card" id="more-soon">
+                    <h1>EM BREVE</h1>
+                </div>
             </div>
         </div>
         <div class="container-info hide" id="content">
             <div class="info" id="curiosity">
+                
+            </div>
+        </div>
+        <div class="container-info hide" id="content">
+            <div class="info" id="soon">
                 
             </div>
         </div>

@@ -34,19 +34,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
     height: 1em;
 }
 
 ::-webkit-scrollbar-track {
     background: transparent;
     border: 100vw;
-    margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #111;
-    border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -68,8 +66,9 @@ a {
     background-color: #171715;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 65%;
 }
 
 .font-logo {
@@ -119,6 +118,10 @@ li .dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.down {
+    font-size: 60%;
 }
 
 /* Fim do Header */
@@ -187,6 +190,14 @@ li .dropdown {
 .video {
     height: 230px;
     width: 70%;
+}
+
+.btns {
+    height: 20%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .btn {
@@ -272,12 +283,6 @@ li .dropdown {
     display: flex;
 }
 
-.game-info {
-    background-color: #171715;
-    width: 95%;
-    height: 70vh;
-}
-
 .start-box {
     position: relative;
     height: 20px;
@@ -319,6 +324,15 @@ li .dropdown {
     font-weight: bold;
 }
 
+.select-btn {
+    font-family: "Cardo";
+}
+
+#game {
+    gap: 20px;
+    padding: 30px;
+}
+
 .cover {
     height: 100%;
     width: 25%;
@@ -338,10 +352,112 @@ li .dropdown {
     background-image: url("../img/ds3-capa.webp");
 }
 
-.column {
+.game-info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 30%;
+    font-size: 110%;
+}
+
+.game-info ul {
+    list-style-type: none;
+}
+
+#boss {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.boss-card {
+    height: 45%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.boss-card:hover {
+    transform: scale(110%);
+}
+
+#more-soon {
+    background-color: #000;
+    justify-content: center;
+}
+
+.boss-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#quelaag {
+    background-image: url("../img/quelaag.webp");
+}
+
+#gaping {
+    background-image: url("../img/gaping.webp");
+}
+
+#ornstein-smough {
+    background-image: url("../img/ornstein-smough.webp");
+}
+
+#sif {
+    background-image: url("../img/sif.webp");
+}
+
+#gwyn {
+    background-image: url("../img/gwyn.webp");
+}
+
+#glass {
+    background-image: url("../img/glass.webp");
+}
+
+#fume {
+    background-image: url("../img/fume.webp");
+}
+
+#velstadt {
+    background-image: url("../img/velstadt.webp");
+}
+
+#iron {
+    background-image: url("../img/iron.webp");
+}
+
+#aldia {
+    background-image: url("../img/aldia.webp");
+}
+
+#watcher {
+    background-image: url("../img/watcher.webp");
+}
+
+#yhorm {
+    background-image: url("../img/yhorm.webp");
+}
+
+#aldrich {
+    background-image: url("../img/aldrich.webp");
+}
+
+#lothric {
+    background-image: url("../img/lothric.webp");
+}
+
+#cinder {
+    background-image: url("../img/cinder.webp");
 }
 
 .container-lore {
@@ -357,6 +473,7 @@ li .dropdown {
     width: 80%;
     padding: 50px 100px;
     background-color: #DADBDD;
+    border: 5px solid #000;
 }
 
 .text {
@@ -377,6 +494,7 @@ li .dropdown {
     top: 0;
     height: 100%;
     padding: 30px;
+    border: 5px solid #000;
 }
 
 .sidebar ul {
