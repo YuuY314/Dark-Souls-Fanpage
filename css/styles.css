@@ -66,9 +66,8 @@ a {
     background-color: #171715;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 65%;
 }
 
 .font-logo {
@@ -593,6 +592,7 @@ li .dropdown {
     width: 50%;
     height: 100%;
     text-align: justify;
+
 }
 
 .project {
