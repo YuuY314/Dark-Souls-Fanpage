@@ -292,8 +292,7 @@ li .dropdown {
     align-items: center;
 }
 
-.start-bkg
-{
+.start-bkg {
     position: absolute;
     background-image: radial-gradient(red, black);
     height: 150%;
@@ -331,6 +330,7 @@ li .dropdown {
 #game {
     gap: 20px;
     padding: 30px;
+    align-items: center;
 }
 
 .cover {
@@ -355,13 +355,34 @@ li .dropdown {
 .game-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 30%;
+    height: 100%;
     font-size: 110%;
 }
 
 .game-info ul {
     list-style-type: none;
+}
+
+.description {
+    text-align: justify;
+    width: 40%;
+    height: 100%;
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.description a {
+    text-decoration: underline;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #boss {
@@ -497,6 +518,10 @@ li .dropdown {
     border: 5px solid #000;
 }
 
+.sidebar h2 a {
+    color: #000;
+}
+
 .sidebar ul {
     list-style-type: none;
     margin-left: 10px;
@@ -513,7 +538,7 @@ li .dropdown {
     font-size: 20px;
 }
 
-.sidebar ul li a:hover{
+.sidebar ul li a:hover, .sidebar h2 a:hover {
     color: #555;
 }
 
