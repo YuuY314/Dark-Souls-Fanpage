@@ -189,6 +189,7 @@ li .dropdown {
 .video {
     height: 230px;
     width: 70%;
+    aspect-ratio: 16 / 9;
 }
 
 .btns {
@@ -480,6 +481,34 @@ li .dropdown {
     background-image: url("../img/cinder.webp");
 }
 
+#curiosity {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+
+.curiosity-card {
+    width: 30%;
+    height: 35%;
+    background-color: #555;
+    text-align: justify;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.curiosity-card h1 {
+    text-decoration: underline;
+}
+
+.soon, #soon {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-lore {
     display: flex;
     width: 80%;
@@ -541,14 +570,6 @@ li .dropdown {
     color: #555;
 }
 
-.git-gud {
-    background-image: url("../img/git-gud.webp");
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
 #my-info {
    display: flex;
    justify-content: center;
@@ -592,7 +613,6 @@ li .dropdown {
     width: 50%;
     height: 100%;
     text-align: justify;
-
 }
 
 .project {
@@ -622,6 +642,31 @@ li .dropdown {
 #gemaplys {
     width: 90%;
     height: 100%;
+}
+
+#credits {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#credits h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.ref-index, .ref-ds1, .ref-ds2, .ref-ds3 {
+    width: 50%;
+    padding: 10px;
+}
+
+#credits ul {
+    list-style-type: none;
+}
+
+#credits li {
+    font-size: 110%;
+    margin-left: 5%;
 }
 
 .hide {
